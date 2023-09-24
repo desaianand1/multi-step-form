@@ -2,4 +2,4 @@
 . "$(dirname "$0")/_/husky.sh"
 
 npx lint-staged
-exec < /dev/tty && npx cz --hook || true
+exec < /dev/tty 1>&0 2>&0 && npx cz --hook || true
