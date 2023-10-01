@@ -13,6 +13,9 @@ export default {
         "light-gray": " hsl(229, 24%, 87%)",
         magnolia: "hsl(217, 100%, 97%)",
         alabaster: "hsl(231, 100%, 99%)"
+      },
+      dropShadow: {
+        "3xl": "0 17.5px 20px rgb(0 0 0 / 0.10)",
       }
     },
     fontFamily: {
