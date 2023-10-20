@@ -1,0 +1,20 @@
+{
+    "steps": [
+        {
+            "title": "Your Info",
+            "number": 1
+        },
+        {
+            "title": "Select Plan",
+            "number": 2
+        },
+        {
+            "title": "Add-Ons",
+            "number": 3
+        },
+        {
+            "title": "Summary",
+            "number": 4
+        }
+    ]
+}
