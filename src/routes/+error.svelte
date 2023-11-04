@@ -1,5 +1,5 @@
 <div
-	class="flex h-screen flex-col justify-center gap-4 bg-magnolia px-5 text-center md:items-center md:gap-20 md:leading-loose"
+	class="flex h-screen flex-col justify-center gap-6 bg-magnolia px-5 text-center md:items-center md:gap-20 md:leading-loose"
 >
 	<h1 class="text-center text-5xl font-black text-strawberry-red md:text-9xl">😳 Whoops!</h1>
 	<div class="flex flex-col gap-4 md:flex-row md:items-center md:justify-center">

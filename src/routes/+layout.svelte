@@ -1,3 +1,7 @@
+<script>
+	import AppLayout from '$lib/layouts/app-layout.svelte';
+</script>
+
 <svelte:head>
 	<title>Multi Step Form | Frontend Mentor</title>
 	<meta charset="UTF-8" />
@@ -16,4 +20,6 @@
 	<link rel="stylesheet" type="text/css" href="/src/app.css" />
 </svelte:head>
 
-<slot />
+<AppLayout>
+	<slot />
+</AppLayout>

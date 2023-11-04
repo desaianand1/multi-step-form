@@ -7,7 +7,7 @@
 	class="flex h-8 w-8 items-center justify-center rounded-full border border-magnolia bg-transparent"
 	class:active={isActiveStep}
 >
-	<span class="text-sm md:text-md font-semibold text-magnolia" class:active={isActiveStep}>{stepNumber}</span
+	<span class="text-sm font-semibold text-magnolia" class:active={isActiveStep}>{stepNumber}</span
 	>
 </div>
 
