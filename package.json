@@ -37,7 +37,7 @@
 	},
 	"type": "module",
 	"lint-staged": {
-		"*.{js,ts}": "eslint --cache --fix",
+		"*.{js,ts}": "eslint --cache --fix --cache-location ./node_modules/.cache/.eslintcache",
 		"*./src": "prettier --plugin prettier-plugin-svelte --write"
 	}
 }
