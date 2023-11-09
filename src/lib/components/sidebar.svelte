@@ -6,7 +6,7 @@
 	import StepCollection from '$lib/components/step-collection.svelte';
 </script>
 
-<div class="relative h-48 w-full md:h-full">
+<div class="absolute row-span-1 md:relative h-48 w-full md:h-full">
 	<img
 		src={desktopSidebar}
 		alt="desktop sidebar bg"
