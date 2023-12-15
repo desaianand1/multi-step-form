@@ -20,7 +20,7 @@
 			<StepIndicator isActiveStep={currentStep === step.number} stepNumber={step.number} />
 			<div class="hidden md:flex-col uppercase md:flex">
 				<span class="text-xs md:text-sm text-pastel-blue tracking-wide">Step {step.number}</span>
-				<p class="text-sm md:text-md font-medium tracking-widest text-alabaster">{step.title}</p>
+				<p class="text-sm md:text-base font-medium tracking-widest text-alabaster">{step.title}</p>
 			</div>
 		</li>
 	{/each}

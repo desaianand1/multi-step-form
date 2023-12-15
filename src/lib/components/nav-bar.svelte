@@ -22,9 +22,10 @@
 	{#if !isInitialStep}
 		<button
 			name="go-back"
+			type="button"
 			transition:fade
 			on:click={revertStep}
-			class="text-md bg-transparent py-3 font-medium capitalize text-cool-gray transition-colors hover:text-marine-blue md:text-lg"
+			class="text-base bg-transparent rounded-md py-3 font-medium capitalize text-cool-gray transition-colors hover:text-marine-blue md:text-lg"
 		>
 			Go Back
 		</button>
@@ -32,8 +33,9 @@
 
 	<button
 		name="next-step"
+		type="button"
 		on:click={advanceStep}
-		class="text-md w-28 rounded-md bg-marine-blue py-3 font-medium capitalize text-alabaster transition-colors hover:bg-[#174a8b] md:w-32 md:text-lg {confirmClass}"
+		class="text-base w-28 rounded-md bg-marine-blue py-3 font-medium capitalize text-alabaster transition-colors hover:bg-[#174a8b] md:w-32 md:text-lg {confirmClass}"
 	>
 		{ctaText}
 	</button>
