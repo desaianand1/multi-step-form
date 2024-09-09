@@ -32,4 +32,4 @@ const SummaryModule: FormModule = {
 	renderableComponent: SelectPlan
 };
 
-export { PersonalInfoModule, SelectPlanModule, AddOnsModule, SummaryModule };
+export const modules = [PersonalInfoModule,SelectPlanModule, AddOnsModule, SummaryModule];
